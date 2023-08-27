@@ -7,16 +7,53 @@ import java.net.MalformedURLException;
 
 public class App {
     public void getGreeting() throws InterruptedException, MalformedURLException {
-        TestCases tests = new TestCases(); // Initialize your test class
-
-        //TODO: call your test case functions one after other here
-
-        tests.testCase01();
-
+        //TestCases tests = new TestCases(); // Initialize your test class
+        //tests.testCase01();
         //END Tests
 
 
-        tests.endTest(); // End your test by clearning connections and closing browser
+        // searchAmazon search = new searchAmazon();
+        // search.searchingAmazon();
+        // search.endTest();
+
+
+        // BookMyShow links = new BookMyShow();
+        // links.hyperlinksCount();
+        // links.endTest();
+
+
+        // linkedIn post = new linkedIn();
+        // post.linkedIn_view();
+        // post.endTest();
+
+
+        BookMyShow_Movies url = new BookMyShow_Movies();
+        url.MoviesUrl();
+        url.endTest();
+
+
+        // linkedIn_post imgPost = new linkedIn_post();
+        // imgPost.createPost();
+        // imgPost.endTest();
+
+        
+        //iFrames text = new iFrames();
+        //text.iFramesText();
+        //text.endTest();
+
+
+        // ImdbRatings movie = new ImdbRatings();
+        // movie.movieRating();
+        // movie.endTest();
+
+        // WindowsHandle handle = new WindowsHandle();
+        // handle.handlingWindow();
+        // handle.endTest();
+
+        
+        
+        
+    //tests.endTest(); // End your test by clearning connections and closing browser
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
